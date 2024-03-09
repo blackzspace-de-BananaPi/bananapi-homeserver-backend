@@ -1,0 +1,27 @@
+{
+  "name": "bananapi-webserver-backend-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"TEST\" && node src/index.js",
+    "build": "read -p 'inp > ' rel && sudo docker build -t blackleakzde/bananapi-homeserver-backend:$rel . && sudo docker tag blackleakzde/bananapi-homeserver-backend:latest blackleakzde/bananapi-homeserver-backend && sudo docker push blackleakzde/bananapi-homeserver-backend:latest",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackzspace-de-BananaPi/bananapi-homeserver-backend.git"
+  },
+  "keywords": [
+    "node",
+    "backend",
+    "reactjs",
+    "server"
+  ],
+  "author": "blackleakz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blackzspace-de-BananaPi/bananapi-homeserver-backend/issues"
+  },
+  "homepage": "https://github.com/blackzspace-de-BananaPi/bananapi-homeserver-backend#readme"
+}
