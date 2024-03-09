@@ -23,5 +23,16 @@
   "bugs": {
     "url": "https://github.com/blackzspace-de-BananaPi/bananapi-homeserver-backend/issues"
   },
-  "homepage": "https://github.com/blackzspace-de-BananaPi/bananapi-homeserver-backend#readme"
+  "homepage": "https://github.com/blackzspace-de-BananaPi/bananapi-homeserver-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.3",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7",
+    "request-ip": "^3.3.0",
+    "rjutils-collection": "^1.8.0",
+    "utils": "^0.3.1"
+  }
 }
